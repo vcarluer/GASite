@@ -23,9 +23,18 @@ width: 333px;
 #imgsa { 
   display: block; 
   margin: 0 auto;
+  width: 96px;
+  height: 96px;
 }
 
 #divsa {
+  display: block;
+  margin-top: 96px;
+  text-align: center;
+  height: 146px;
+}
+
+#divabout {
   display: block;
   margin-top: 96px;
   text-align: center;
@@ -36,10 +45,15 @@ a.about {
     color: #ffffff ; 
 }
 
+a.contact { 
+    margin-left: 42px;
+    color: #ffffff ; 
+}
+
 #divfoot {
     display: block; 
     text-align: center;
-    height: 288px;
+    height: 200px; /*288px */
 }
 
 #txtfoot {
